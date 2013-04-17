@@ -1,0 +1,13 @@
+{
+  "name": "Basic",
+  "version": "0.0.1",
+  "private": "true",
+  "author":"disun <disun@ufl.edu>",
+  "dependencies": {
+    "express": "3.0.0alpha4",
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*"
+  },
+  "main": "app.js"
+}

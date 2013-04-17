@@ -1,0 +1,15 @@
+doctype 5
+html
+  head
+    title #{title} - Di's Site
+    link(rel='stylesheet', href='/stylesheets/wstyle.css')
+  body   		  
+    header
+      a(href='/') Daily News Website 
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      @copyright by disun, nodejs with Express, Jade and Stylus
